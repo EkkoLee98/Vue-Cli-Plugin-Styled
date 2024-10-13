@@ -1,0 +1,33 @@
+{
+  "name": "@lizhengen/vue-cli-plugin-sfhk-styled",
+  "version": "0.0.3",
+  "description": "vue-cli plugin to add yk-styled",
+  "main": "index.js",
+  "repository": "hhttps://github.com/EkkoLee98/vue-cli-plugin-sfhk-styled.git",
+  "author": "lizhengen",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "dependencies": {
+    "cssesc": "^3.0.0",
+    "loader-utils": "^2.0.0",
+    "normalize-path": "^3.0.0",
+    "os": "^0.1.2",
+    "windicss": "^3.4.2"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.16.5",
+    "@babel/parser": "^7.16.6",
+    "@babel/types": "^7.16.0",
+    "jest": "^26.0.0"
+  },
+  "peerDependencies": {
+    "@lizhengen/styled": "0.0.2",
+    "windicss-webpack-plugin": "^1.6.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
