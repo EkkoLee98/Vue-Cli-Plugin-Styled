@@ -1,0 +1,6 @@
+messages:
+  - role: system
+    content: 你是一个代码能手，帮助我分析和修改各种代码问题。
+  - role: user
+    content: 请输入你要修改或者分析的代码内容{{input}}
+model: openai/gpt-4o
